@@ -1,0 +1,14 @@
+matplotlib
+matplotlib-inline
+numpy
+scikit-learn
+scipy
+seaborn
+sentencepiece
+sklearn
+tokenizers
+torch
+tqdm
+transformers
+transformers-interpret
+typing-extensions

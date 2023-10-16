@@ -1,0 +1,22 @@
+{
+    "run_id": "172",
+    "tag": "eacl_256_02c_ts1",
+    "dir": "outputs",
+    "model_name": "ufal/robeczech-base",
+    "max_length": 256,
+    "epochs": 50,
+    "target_names": ["0", "1"],
+    "per_device_batch": 64,
+    "learning_rate": 2e-5,
+    "save_total_limit": 6,
+    "early_stopping_patience": 5,
+    "logging_strategy":"steps",
+    "evaluation_strategy":"steps",
+    "save_strategy":"steps",
+    "gradient_acc": 4,
+    "w_steps": 1000,
+    "max_steps": 100000,
+    "eval_steps": 500,
+    "logging_steps": 25,
+    "save_steps": 500
+}
